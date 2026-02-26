@@ -10,14 +10,8 @@ def read_root():
 def health_check():
     return {"status": "ok"}
 ```
-- Klik **"Commit changes"**
 
----
-
-**File 2: `requirements.txt`**
-- Klik **"Add file" → "Create new file"**
-- Nama file: `requirements.txt`
-- Isi dengan:
+**`requirements.txt`**
 ```
 fastapi
 uvicorn[standard]
